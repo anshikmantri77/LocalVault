@@ -1,0 +1,15 @@
+[server]
+enableCORS = false
+enableXsrfProtection = false
+maxUploadSize = 200
+
+[browser]
+gatherUsageStats = false
+
+[runner]
+magicEnabled = false
+fastRerun = true
+
+[ui]
+hideSidebarNav = true
+hideTopBar = false
