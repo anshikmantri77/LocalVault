@@ -5,9 +5,8 @@ Streamlit frontend backed by local Ollama.
 Fixes applied:
   7. Service Instability: health check now handles HTTP 503 (initialising)
      separately from total failure so the user sees "Loading…" not "Offline".
-  8. Legacy Code Clutter: removed dead HuggingFace model selector; sidebar
-     now shows the real Ollama model from .env and lets the user switch
-     between locally available Ollama models.
+  8. Legacy Code Clutter: sidebar now shows the real Ollama model from .env 
+     and lets the user switch between locally available Ollama models.
 """
 
 import streamlit as st
