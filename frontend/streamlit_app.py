@@ -179,9 +179,9 @@ with st.sidebar:
     default_model = settings.OLLAMA_MODEL
     # Common Ollama model options — user can type their own
     KNOWN_MODELS = [
-        "qwen2.5:3b",
-        "qwen2.5:0.5b",
-        "qwen2.5:7b",
+        "qwen3.5:3b",
+        "qwen3.5:0.5b",
+        "qwen3.5:7b",
         "mistral:7b",
         "llama3.2:3b",
         "phi3:mini",
@@ -355,7 +355,7 @@ with tab_about:
 on your machine — nothing is sent to third-party servers.
 
 #### Stack
-- **LLM**: Local Ollama (Qwen 2.5, Mistral, LLaMA 3, Phi-3, Gemma 2 …)
+- **LLM**: Local Ollama (Qwen 3.5, Mistral, LLaMA 3, Phi-3, Gemma 2 …)
 - **Embeddings**: `all-mpnet-base-v2` (local, CPU)
 - **Vector DB**: ChromaDB (persistent, local)
 - **Backend**: FastAPI + uvicorn
@@ -365,7 +365,7 @@ on your machine — nothing is sent to third-party servers.
 PDF · DOCX · TXT · CSV · Markdown
 
 #### Tips for best results
-- Use **qwen2.5:3b** or higher for document Q&A (0.5b is too small for complex answers).
+- Use **qwen3.5:3b** or higher for document Q&A (0.5b is too small for complex answers).
 - Set **Temperature → 0.1** for factual document questions.
 - After uploading a new file, wait for indexing to complete before asking questions.
     """)
