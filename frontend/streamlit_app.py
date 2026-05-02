@@ -179,8 +179,8 @@ with st.sidebar:
     default_model = settings.OLLAMA_MODEL
     # Common Ollama model options — user can type their own
     KNOWN_MODELS = [
-        "qwen2.5:0.5b",
         "qwen2.5:3b",
+        "qwen2.5:0.5b",
         "qwen2.5:7b",
         "mistral:7b",
         "llama3.2:3b",
