@@ -15,7 +15,7 @@ class Settings(BaseSettings):
 
     # Ollama — 100% Local (Privacy First)
     OLLAMA_BASE_URL: str = "http://localhost:11434"
-    OLLAMA_MODEL: str = "qwen3.5:3b"   # High-performance local model
+    OLLAMA_MODEL: str = "qwen3.5:2b"   # High-performance local model
 
     # Vector database
     CHROMA_DB_PATH: Path = DATA_DIR / "chroma_db"

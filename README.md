@@ -12,7 +12,7 @@
 
 ## ✨ Premium Features
 
-- **🛡️ 100% Sovereign Inference**: Powered by **Ollama**. Currently optimized for **Qwen 3.5 (3B)**, but compatible with any open-source model (Mistral, Llama 3, Phi-4) based on your system's hardware capability.
+- **🛡️ 100% Sovereign Inference**: Powered by **Ollama**. Currently optimized for **Qwen 3.5 (2B)**, but compatible with any open-source model (Mistral, Llama 3, Phi-4) based on your system's hardware capability.
 - **📊 Surgical Document Parsing**: 
   - **PDF Layout Awareness**: Preserves structural integrity of complex resumes and reports.
   - **Atomic Financial Tagging**: Automatically detects and transposes wide financial tables into searchable atomic units.
@@ -27,7 +27,7 @@
 
 LocalVault is built on a modular **MCP (Model Control Protocol)** inspired architecture:
 
-*   **Brain**: `Qwen 3.5 3B` via Ollama (Customizable to 1B, 7B, or larger depending on RAM/GPU).
+*   **Brain**: `Qwen 3.5 2B` via Ollama (Customizable to 1B, 7B, or larger depending on RAM/GPU).
 *   **Memory**: `ChromaDB` (High-performance vector storage).
 *   **Senses**: `sentence-transformers/all-mpnet-base-v2` (State-of-the-art semantic embeddings).
 *   **Structure**: `FastAPI` Backend + `Streamlit` Frontend.
@@ -55,7 +55,7 @@ source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 
 # Pull the recommended model (or any model of your choice)
-ollama pull qwen2.5:3b
+ollama pull qwen3.5:2b
 ```
 
 ### 3. Launch the Vault
