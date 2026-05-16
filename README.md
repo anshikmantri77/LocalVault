@@ -21,6 +21,9 @@
 - **🎯 Hybrid Retrieval (MMR)**: Uses Maximum Marginal Relevance to ensure context diversity, preventing the AI from getting stuck in repetitive document loops.
 - **⚡ Real-Time Dashboard**: A sleek, dark-mode Streamlit interface for seamless document management and low-latency interaction.
 
+## Dashboard
+<img width="964" height="643" alt="image" src="https://github.com/user-attachments/assets/3a5b50b3-590d-4e85-a539-3b36acd9e812" />
+
 ---
 
 ## 🏗️ Technical Architecture
